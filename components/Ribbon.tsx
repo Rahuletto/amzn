@@ -3,7 +3,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 export const Ribbon = () => {
   return (
-    <div className="ribbon">
+    <div id="top" className="ribbon">
       <a href="#" className="nav-a font-bold">
         <GiHamburgerMenu /> All
       </a>

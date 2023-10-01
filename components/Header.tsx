@@ -57,7 +57,7 @@ export const Header = () => {
         >
           <form
             id="nav-search-bar-form"
-            accept-charset="utf-8"
+            acceptCharset="utf-8"
             className="nav-searchbar nav-progressive-attribute"
             method="GET"
             name="site-search"
@@ -95,8 +95,9 @@ export const Header = () => {
                     name="url"
                     style={{ display: "block", top: "2.5px" }}
                     title="Search in"
+                    defaultValue={'slcted'}
                   >
-                    <option selected value="search-alias=aps">
+                    <option value="slcted">
                       All Categories
                     </option>
                     <option value="search-alias=alexa-skills">
