@@ -23,6 +23,21 @@ header {
   z-index: 100;
 }
 
+#nav-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-width: 1000px;
+  height: 100%;
+  display: none;
+  background-color: #000;
+  opacity: 0.6;
+  transform: translate3d(0,0,0);
+  z-index: 10;
+  animation: 0.15s fadein ease-in;
+}
+
 .nav-sprite,
 .nav-sprite-v1 .nav-icon {
   background-image: url(https://m.media-amazon.com/images/G/31/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405936311_.png);
@@ -344,12 +359,14 @@ textarea {
 }
 
 .img-cont {
+  z-index: 1;
   position: relative;
   top: 64px;
   mask-image: linear-gradient(to bottom, white 50%, transparent 100%);
 }
 
 .ribbon {
+  z-index: 10;
   position: relative;
   top: 64px;
   background-image: none;
@@ -380,6 +397,7 @@ textarea {
 }
 
 #card {
+  z-index: 2;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -440,4 +458,17 @@ textarea {
   object-fit: none;
   height: 120px;
   width: 140px;
+}
+
+#card img {
+  cursor: pointer;
+}
+
+/** Keyframes **/
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  } 100% {
+    opacity: 0.6
+  }
 }
