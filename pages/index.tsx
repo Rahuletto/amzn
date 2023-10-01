@@ -204,9 +204,31 @@ export default function Home() {
             },
           ]}
         />
-
-
-
+        <Card
+          title="Starting ₹99 | All your home improvement needs"
+          image={[
+            {
+              url: "https://images-eu.ssl-images-amazon.com/images/G/31/img23/HI/SYED/ATF/QC-adapts_186x116_4._SY116_CB600489960_.jpg",
+              alt: "Spin mops",
+              text: "Spin mops, wipes & more",
+            },
+            {
+              url: "https://images-eu.ssl-images-amazon.com/images/G/31/img23/HI/SYED/ATF/QC-adapts_186x116_3._SY116_CB600489960_.jpg",
+              alt: "Towels",
+              text: "Bathroom hardware & accessories",
+            },
+            {
+              url: "https://images-eu.ssl-images-amazon.com/images/G/31/img23/HI/SYED/ATF/QC-adapts_186x116_7._SY116_CB600489960_.jpg",
+              alt: "Tools",
+              text: "Hammers, screwdrivers & more",
+            },
+            {
+              url: "https://images-eu.ssl-images-amazon.com/images/G/31/img23/HI/SYED/ATF/QC-adapts_186x116_5._SY116_CB600489960_.jpg",
+              alt: "Electrical stuff",
+              text: "Extension boards, plugs & more",
+            },
+          ]}
+        />
       </div>
     </main>
   );
