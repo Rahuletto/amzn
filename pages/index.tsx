@@ -28,6 +28,7 @@ const imgs = [
 ];
 const cardCollection = [
   <Card
+    key="1"
     title="Up to 75% off | Headphones"
     image={[
       {
@@ -53,6 +54,7 @@ const cardCollection = [
     ]}
   />,
   <Card
+  key="2"
     title="Great Indian Festival | Starts 8th Oct"
     image={{
       url: "https://images-eu.ssl-images-amazon.com/images/G/31/Events/img23/Jupiter23/Homepage/J23_PC_CC_V2_1x._SY304_CB577183061_.jpg",
@@ -60,6 +62,7 @@ const cardCollection = [
     }}
   />,
   <Card
+  key="3"
     title="Get sale ready"
     image={[
       {
@@ -85,6 +88,7 @@ const cardCollection = [
     ]}
   />,
   <Card
+  key="4"
     title="Bluetooth Calling Smartwatch starts at ₹1,999"
     image={{
       url: "https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wearables/PC_CategoryCard_379X304_1._SY304_CB614835787_.jpg",
@@ -92,6 +96,7 @@ const cardCollection = [
     }}
   />,
   <Card
+  key="5"
     title="Get Running | Shoes for men"
     image={{
       url: "https://m.media-amazon.com/images/I/71+JSg40JqL._AC_UL320_.jpg",
@@ -99,6 +104,7 @@ const cardCollection = [
     }}
   />,
   <Card
+  key="6"
     title="Up to 60% off | Styles for men"
     image={[
       {
@@ -124,6 +130,7 @@ const cardCollection = [
     ]}
   />,
   <Card
+  key="7"
     title="Appliances for your home | Up to 55% off"
     image={[
       {
@@ -149,6 +156,7 @@ const cardCollection = [
     ]}
   />,
   <Card
+  key="8"
     title="Revamp your home in style"
     image={[
       {
@@ -174,6 +182,7 @@ const cardCollection = [
     ]}
   />,
   <Card
+  key="9"
     title="Starting ₹99 | All your home improvement needs"
     image={[
       {
