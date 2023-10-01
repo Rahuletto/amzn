@@ -5,7 +5,7 @@ const nextConfig = {
   reactStrictMode: true,
   compress: true,
   images: {
-    domains: ['avatars.githubusercontent.com', "images-eu.ssl-images-amazon.com"],
+    domains: ['avatars.githubusercontent.com', "images-eu.ssl-images-amazon.com", "m.media-amazon.com"],
   },
   webpack: (config) => {
     config.experiments = {
