@@ -294,7 +294,7 @@ export const Header = () => {
           </a>
 
           <a
-            href="https://www.amazon.in/gp/cart/view.html?ref_=nav_cart"
+            href="#"
             style={{ flexDirection: "row" }}
             aria-label="0 items in cart"
             className="flex-row nav-a nav-a-2 nav-progressive-attribute"
