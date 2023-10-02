@@ -235,7 +235,7 @@ export default function Home() {
       setTimeout(() => {
         const randomized = imgs[i];
 
-        if (i == imgs.length) i = 0;
+        if (i == imgs.length-1) i = 0;
         else i++;
 
         img.src = img.srcset = randomized;
